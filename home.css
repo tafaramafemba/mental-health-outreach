@@ -8,8 +8,13 @@ body {
   margin: 0;
 }
 
-.menu {
-  padding-left: 10px;
+.first-sec {
+  background-image: url(/Images/main_big.png);
+}
+
+nav {
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
 .hello {
@@ -40,7 +45,6 @@ padding-left: 10px;
   padding-right: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 370px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -58,6 +62,8 @@ padding-left: 10px;
   color: #272a31;
   font-size: 16px;
   padding-left: 10px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
 }
 
 /* Main Program */
@@ -74,6 +80,7 @@ padding-left: 10px;
   color: #fff;
   font-size: 30px;
   text-align: center;
+  margin-top: 0;
   margin-bottom: 10px;
   padding-top: 50px;
 }
@@ -101,9 +108,24 @@ padding-left: 10px;
   color: #fff;
   font-family: 'Lato', sans-serif;
   width: 200px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
+.ppone {
+  padding-left: 90px;
+}
+
+.pptwo {
+  padding-left: 50px;
+}
+
+.ppthree {
+  padding-left: 65px;
+}
+
+.ppfour {
+  padding-left: 95px;
+}
 .pro-item {
   margin-top: 10px;
   padding-left: 10px;
@@ -175,6 +197,7 @@ padding-left: 10px;
 
 .sp-hr {
   width: 50px;
+  margin-left: 0;
 }
 
 .speakers-container {
@@ -190,4 +213,27 @@ padding-left: 10px;
 
 .sp-info {
   padding-left: 20px;
+}
+
+.sp-btn {
+  border-radius: 0;
+  border: #d3d3d3 solid 1px;
+  background-color: #fff;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sp-img {
+  height: 25px;
+  width: 25px;
+}
+
+.one,
+.two,
+.three,
+.four {
+display: none;
 }
