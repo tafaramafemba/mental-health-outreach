@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/* Header and navigation bar */
+
+body {
+  background-color: #d3d3d3;
+}
+
+.hello {
+font-family: 'Lato', sans-serif;
+color: #ec5242;
+font-size: 25px;
+font-weight: 400;
+margin-bottom: 0;
+margin-top: 50px;
+}
+
+.welcome {
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.intro-desrcip {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+  border: #fff solid 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 370px;
+}
+
+.intro-time {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.intro-location {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+}
+
+/* Main Program */
+
+.program {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.pro-hr {
+  background-color: #ec5242
+}
+
+.pro-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.pro-header {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+}
+
+.pro-para {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  width: 200px;
+  padding-left: 20px;
+}
+
+.pro-item {
+  display: flex;
+  flex-direction: row;
+}
