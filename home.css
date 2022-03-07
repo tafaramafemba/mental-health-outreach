@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
+/* Mobile Version */
 /* Header and navigation bar */
 
 body {
   background-color: #d3d3d3;
+  margin: 0;
+}
+
+.menu {
+  padding-left: 10px;
 }
 
 .hello {
@@ -13,6 +19,7 @@ font-size: 25px;
 font-weight: 400;
 margin-bottom: 0;
 margin-top: 50px;
+padding-left: 10px;
 }
 
 .welcome {
@@ -21,6 +28,7 @@ margin-top: 50px;
   color: #ec5242;
   font-size: 40px;
   font-weight: 400;
+  padding-left: 10px;
 }
 
 .intro-desrcip {
@@ -33,41 +41,58 @@ margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 370px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .intro-time {
-  font-family: 'Lato', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   color: #272a31;
   font-size: 30px;
   font-weight: 400;
+  padding-left: 10px;
 }
 
 .intro-location {
   font-family: 'Lato', sans-serif;
   color: #272a31;
   font-size: 16px;
+  padding-left: 10px;
 }
 
 /* Main Program */
+
+.second-sec {
+  background-image: url(/Images/pattern_bg.png);
+  background-color: #272a32;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .program {
   font-family: 'Lato', sans-serif;
   color: #fff;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 10px;
+  padding-top: 50px;
 }
 
 .pro-hr {
-  background-color: #ec5242
+  background-color: #ec5242;
+  width: 50px;
+  margin-bottom: 40px;
 }
 
 .pro-icon {
+  padding-top: 20px;
   width: 50px;
   height: 50px;
   margin-left: 10px;
 }
 
 .pro-header {
+  padding-top: 20px;
   font-family: 'Lato', sans-serif;
   color: #ec5242;
 }
@@ -80,6 +105,89 @@ margin-top: 50px;
 }
 
 .pro-item {
+  margin-top: 10px;
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
+  background: rgba(255,255,255,0.1);
+}
+
+.pro-btn {
+  border: 0;
+  border-radius: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ec5242;
+  color: #fff;
+  height: 75px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+/* Featured Speakers */
+
+.third-sec {
+  background-color: #fff;
+}
+.speaker-img {
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.sp-title {
+  font-family: 'Lato', sans-serif;
+  color:#272a32;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.sp-name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color:#272a32;
+  margin-bottom: 5px;
+}
+
+.sp-role {
+  font-family: 'Lato', sans-serif;
+  color:#ec5242;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.sp-descrip {
+  font-family: 'Lato', sans-serif;
+  color:#272a32;
+  font-size: 12px;
+}
+
+.sp-hr {
+  width: 50px;
+}
+
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 5px;
+}
+
+.sp-info {
+  padding-left: 20px;
 }
