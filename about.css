@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/* Mobile Version */
+/* Header and navigation bar */
+
+body {
+  background-color: #d3d3d3;
+  margin: 0;
+}
+
+.first-sec {
+  background-image: url(/Images/main_big.png);
+}
+
+nav {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.hello {
+font-family: 'Lato', sans-serif;
+color: #ec5242;
+font-size: 25px;
+font-weight: 400;
+margin-bottom: 0;
+margin-top: 50px;
+padding-left: 10px;
+}
+
+.welcome {
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 10px;
+}
