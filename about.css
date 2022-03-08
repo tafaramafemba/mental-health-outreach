@@ -10,6 +10,7 @@ body {
 
 .first-sec {
   background-image: url(/Images/main_big.png);
+  padding-bottom: 50px;
 }
 
 nav {
@@ -24,7 +25,7 @@ font-size: 25px;
 font-weight: 400;
 margin-bottom: 0;
 margin-top: 50px;
-padding-left: 10px;
+text-align: center;
 }
 
 .welcome {
@@ -33,5 +34,196 @@ padding-left: 10px;
   color: #ec5242;
   font-size: 40px;
   font-weight: 400;
+  text-align: center;
+}
+
+.intro-descrip {
+  background-color: #fff;
+  text-align: center;
   padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin: auto;
+  border: #d3d3d3 solid 1px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+}
+
+.intro-email {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+  padding-top: 25px;
+}
+
+.email {
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  color: #272a32;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  padding-left: 150px;
+  padding-top: 5px;
+}
+
+.second-sec {
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.mental-h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.mental-hr {
+  background-color: #ec5242;
+  width: 50px;
+}
+
+.mental-p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.mental-img-div {
+  border: #d3d3d3 solid 1px;
+  width: 90%;
+  margin: auto;
+}
+
+.mental-img {
+  height: 400px;
+  width: 400px;
+}
+
+.third-sec {
+  background-color: #fff;
+}
+
+.summit-h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.summit-hr {
+  background-color: #ec5242;
+  width: 50px;
+}
+
+.summit-p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.past-div {
+  background-image: url(/Images/summit.png);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  text-align: center;
+  margin:auto;
+  width: 80%;
+}
+
+.past-div-two {
+  background-image: url(/Images/summit2.png);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  text-align: center;
+  margin:auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.past-h2 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 0;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+
+.past-p {
+  text-align: center;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.partner-div {
+  background-color: #414246;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.partner-hr {
+  background-color: #ec5242;
+  width: 50px;
+}
+
+.partner-h3 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.partner-img {
+  width: 414px;
+}
+
+.tafara-img {
+  padding-top: 15px;
+  padding-left: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+footer {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.rights-p {
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
