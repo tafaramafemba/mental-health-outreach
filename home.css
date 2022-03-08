@@ -8,13 +8,24 @@ body {
   margin: 0;
 }
 
+.admin-div {
+  display: none;
+}
+
 .first-sec {
   background-image: url(/Images/main_big.png);
 }
 
-nav {
-  padding-top: 20px;
+.menu {
   margin-left: 20px;
+}
+
+.menu-img {
+  padding-top: 20px;
+}
+
+nav {
+  display: none;
 }
 
 .hello {
@@ -148,6 +159,10 @@ padding-left: 10px;
   padding-left: 10px;
 }
 
+.pro-link {
+  display: none;
+}
+
 .btn-div {
   display: flex;
   justify-content: center;
@@ -236,4 +251,189 @@ padding-left: 10px;
 .three,
 .four {
 display: none;
+}
+
+.fourth-sec {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+/* desktop-site */
+.menu {
+  display: none;
+}
+
+.hello {
+  padding-top: 40px;
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-div {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro-list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.intro-list li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color:#272a32;
+  font-size: 12px;
+}
+
+.intro-list li a:hover {
+  color: #ec5242;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pro-item {
+  flex-direction: column;
+}
+
+.pro-para {
+  padding-left: 0;
+}
+
+.ppone {
+  padding-left: 0;
+}
+
+.pptwo {
+  padding-left: 0;
+}
+
+.ppthree {
+  padding-left: 0;
+}
+
+.ppfour {
+  padding-left: 0;
+}
+
+.pro-btn {
+  display: none;
+}
+
+.pro-link {
+  display: block;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.speakers-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.one,
+.two,
+.three,
+.four {
+display: block;
+}
+
+.sp-btn {
+  display: none;
+}
+
+.partner-div {
+  background-color: #414246;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.partner-hr {
+  background-color: #ec5242;
+  width: 50px;
+}
+
+.partner-h3 {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color:#d3d3d3;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.partner-img {
+  padding-left: 210px;
+}
+
+.tafara-img {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+  width: 150px;
+}
+
+.fourth-sec {
+  display: block;
+}
+footer {
+  display: block;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d3d3d3;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+
+.rights-p {
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.admin-list {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  gap: 20px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.admin-list li a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  font-size: 10px;
+}
+
+.admin-div {
+  display: block;
+  background-color: #272a31;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 }
