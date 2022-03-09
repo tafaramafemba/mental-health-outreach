@@ -319,6 +319,14 @@ footer {
   display: none;
 }
 
+.cancel-img {
+  display: none;
+}
+
+.logo-nav {
+  height: 50px;
+  width: 100px;
+}
 .menu-img {
   display: none;
 }
