@@ -7,25 +7,31 @@ body {
   background-color: #d3d3d3;
   margin: 0;
 }
+.admin-div {
+  display: none;
+}
+nav {
+  display: none;
+}
+
+.menu {
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
 .first-sec {
   background-image: url(/Images/main_big.png);
   padding-bottom: 50px;
 }
 
-nav {
-  padding-top: 20px;
-  margin-left: 20px;
-}
-
 .hello {
-font-family: 'Lato', sans-serif;
-color: #ec5242;
-font-size: 25px;
-font-weight: 400;
-margin-bottom: 0;
-margin-top: 50px;
-text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .welcome {
@@ -62,14 +68,18 @@ text-align: center;
   padding-top: 25px;
 }
 
-.email {
+.email-div {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.email {
   font-family: 'Lato', sans-serif;
   color: #272a32;
   font-weight: bold;
   text-align: center;
   margin: auto;
-  padding-left: 150px;
   padding-top: 5px;
 }
 
@@ -105,8 +115,9 @@ text-align: center;
 
 .mental-img-div {
   border: #d3d3d3 solid 1px;
-  width: 90%;
+  width: 390px;
   margin: auto;
+
 }
 
 .mental-img {
@@ -226,4 +237,96 @@ footer {
   padding-left: 20px;
   font-family: 'Lato', sans-serif;
   color: #272a31;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+  
+  .hello {
+    padding-top: 40px;
+    margin-top: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+  }
+  
+  .nav-div {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .intro-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+  }
+  
+  .intro-list li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color:#272a32;
+    font-size: 12px;
+  }
+  
+  .intro-list li a:hover {
+    color: #ec5242;
+  }
+
+  .admin-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    gap: 20px;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .admin-list li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    font-size: 10px;
+  }
+  
+  .admin-div {
+    display: block;
+    background-color: #272a31;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .partner-div {
+    display: none;
+  }
+
+  .past-div-two {
+    margin-bottom: 0;
+  }
+
+  .past-divs {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  }
+
+  footer {
+    background-color: #272a32;
+  }
+
+  .footer-div {
+    justify-content: center;
+  }
+
+  .rights-p {
+    color: #d3d3d3;
+  }
 }
