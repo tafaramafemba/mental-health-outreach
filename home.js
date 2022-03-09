@@ -12,7 +12,7 @@ function closer() {
   x.style.display = 'none';
   navbarLinks.classList.remove('active');
   toggleButton.style.display = 'block';
-};
+}
 x.addEventListener('click', closer);
 
 const speakers = [
@@ -20,13 +20,13 @@ const speakers = [
     Images: ['Images/Tafara.png', 'Images/Mudiwa.PNG', 'Images/Anne.PNG', 'Images/lj.PNG', 'Images/Josh.PNG', 'Images/Tanya.PNG'],
     name: ['Tafara Mafemba', 'Mudiwa Biti', 'Anne Rose', 'Livingstone Mavunga', 'Rodney Mukonori', 'Tanya Ndiyamba'],
     role: ['Founder of "My Brothers Keeper Mental Health"', 'Mental Health Nurse', 'School Guidance Counsellor', 'HR Consultant', 'Mental Health Advocate', 'Pediatrician and Counsellor'],
-    about: ['Tafara focuses on opening a safe space for men to open up about mental health issues.', 
-    'Mudiwa has been working with mental health patients for 12 years and has a plethora of experience under his belt.',
-    'Anne has a lot of experience dealing with young adults trying to figure out life and protecting their mental health.',
-    'As a former HR Manager at Microsoft, Livingstone has worked with all kinds of people from all over the world and has seen all kinds of mental health issues in the workplace.',
-    'Rodney is the founder of AllKidsHealth, which is an organization that focuses on mental health for children.',
-    'As a Pediatrician, Tanya has had experience dealing with parents who have had to deal with having children with terminal illnesses.',
-  ]
+    about: ['Tafara focuses on opening a safe space for men to open up about mental health issues.',
+      'Mudiwa has been working with mental health patients for 12 years and has a plethora of experience under his belt.',
+      'Anne has a lot of experience dealing with young adults trying to figure out life and protecting their mental health.',
+      'As a former HR Manager at Microsoft, Livingstone has worked with all kinds of people from all over the world and has seen all kinds of mental health issues in the workplace.',
+      'Rodney is the founder of AllKidsHealth, which is an organization that focuses on mental health for children.',
+      'As a Pediatrician, Tanya has had experience dealing with parents who have had to deal with having children with terminal illnesses.',
+    ],
 
   },
 ];

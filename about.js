@@ -12,5 +12,5 @@ function closer() {
   x.style.display = 'none';
   navbarLinks.classList.remove('active');
   toggleButton.style.display = 'block';
-};
+}
 x.addEventListener('click', closer);
