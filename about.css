@@ -4,14 +4,60 @@
 /* Header and navigation bar */
 
 body {
-  background-color: #d3d3d3;
+  background-color: #fff;
   margin: 0;
 }
 .admin-div {
   display: none;
 }
-nav {
+
+.nav-div {
   display: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  transition: all 0.5s;
+  background: #fff;
+}
+
+.nav-div.active {
+  display: flex;
+}
+
+.intro-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.intro-list li a {
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 25px;
+  border-bottom: #272a31 solid 1px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.intro-list li a:hover {
+  color: #ec5242;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.cancel-img {
+  width: 25px;
+  height: 25px;
+  align-self: flex-end;
+  padding-left: 25px;
 }
 
 .menu {
@@ -30,7 +76,7 @@ nav {
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 0;
-  margin-top: 50px;
+  padding-top: 0;
   text-align: center;
 }
 
@@ -115,14 +161,14 @@ nav {
 
 .mental-img-div {
   border: #d3d3d3 solid 1px;
-  width: 390px;
+  max-width: 390px;
   margin: auto;
 
 }
 
 .mental-img {
-  height: 400px;
-  width: 400px;
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .third-sec {
@@ -195,8 +241,19 @@ nav {
 
 .partner-div {
   background-color: #414246;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   padding-top: 30px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  background-color: #414246;
+  color:#d3d3d3;
+  gap: 25px;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .partner-hr {
@@ -245,22 +302,37 @@ footer {
   .menu {
     display: none;
   }
+
+  .cancel-img {
+    display: none;
+  }
   
-  .hello {
-    padding-top: 40px;
-    margin-top: 0;
+  .logo-nav {
+    height: 43px;
+    align-self: center;
+    width: 100px;
   }
   
   nav {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 100px;
+    justify-content: space-around;
+    width: 100%;
   }
   
   .nav-div {
+    display: flex;
+    height: 50px;
+    width: 90%;
+    position: relative;
     background-color: #fff;
-    padding-top: 20px;
     padding-bottom: 20px;
+    align-items: flex-end;
+  }
+
+  .li-campaign {
+    border: #ec5242 solid 4px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   
   .intro-list {
@@ -274,10 +346,20 @@ footer {
     font-family: 'Lato', sans-serif;
     color:#272a32;
     font-size: 12px;
+    border: 0;
   }
   
   .intro-list li a:hover {
     color: #ec5242;
+  }
+
+  .hello {
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .partner-div {
+    display: none;
   }
 
   .admin-list {
@@ -302,10 +384,6 @@ footer {
     background-color: #272a31;
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-
-  .partner-div {
-    display: none;
   }
 
   .past-div-two {
