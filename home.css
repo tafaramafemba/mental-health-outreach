@@ -303,6 +303,13 @@ footer {
   background-color: #272a31;
 }
 
+.tafara-img {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 43px;
+  width: 100px;
+}
+
 .footer-div {
   display: flex;
   justify-content: center;
@@ -311,6 +318,17 @@ footer {
 
 @media (min-width: 768px) {
   /* desktop-site */
+  .facebook {
+    height: 10px;
+    width: 10px;
+  }
+
+  .twitter {
+    height: 12px;
+    width: 12px;
+    padding-top: 4px;
+  }
+
   .menu {
     display: none;
   }
@@ -477,11 +495,6 @@ footer {
     justify-content: center;
     padding-bottom: 30px;
     font-family: cocogoose, sans-serif;
-  }
-
-  .tafara-img {
-    padding-top: 10px;
-    padding-left: 10px;
   }
 
   .fourth-sec {

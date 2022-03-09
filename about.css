@@ -297,6 +297,17 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .facebook {
+    height: 10px;
+    width: 10px;
+  }
+
+  .twitter {
+    height: 12px;
+    width: 12px;
+    padding-top: 4px;
+  }
+
   .menu {
     display: none;
   }
