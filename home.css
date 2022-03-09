@@ -52,8 +52,8 @@ body {
   font-size: 25px;
   border-bottom: #272a31 solid 1px;
   justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .intro-list li a:hover {
@@ -156,7 +156,8 @@ padding-left: 10px;
 .pro-header {
   padding-top: 20px;
   font-family: 'Lato', sans-serif;
-  color: #ec5242;
+  color: #fff;
+  padding-left: 10px;
 }
 
 .pro-para {
@@ -269,6 +270,7 @@ padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
 }
 
 .speaker {
@@ -279,17 +281,7 @@ padding-left: 10px;
 
 .sp-info {
   padding-left: 20px;
-}
-
-.sp-btn {
-  border-radius: 0;
-  border: #d3d3d3 solid 1px;
-  background-color: #fff;
-  width: 90%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .sp-img {
@@ -298,19 +290,23 @@ padding-left: 10px;
   margin-bottom: -5px;
 }
 
-.one,
-.two,
-.three,
-.four {
-display: none;
-}
-
 .fourth-sec {
   display: none;
 }
 
 footer {
-  display: none;
+  margin-top: 50px;
+  display: block;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #272a31;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -324,9 +320,11 @@ footer {
 }
 
 .logo-nav {
-  height: 50px;
+  height: 43px;
+  align-self: center;
   width: 100px;
 }
+
 .menu-img {
   display: none;
 }
@@ -346,17 +344,25 @@ footer {
 
 nav {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
   
 }
 
 .nav-div {
   display: flex;
-  width: 40%;
   height: 50px;
+  width: 90%;
   position: relative;
   background-color: #fff;
-  padding-top: 20px;
   padding-bottom: 20px;
+  align-items: flex-end;
+}
+
+.li-campaign {
+  border: #ec5242 solid 4px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .intro-list {
@@ -388,6 +394,11 @@ nav {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border: transparent solid 2px;
+}
+
+.pro-item:hover {
+  border: #fff solid 2px;
 }
 
 .pro-para {
@@ -430,17 +441,6 @@ nav {
   margin-bottom: 50px;
 }
 
-.one,
-.two,
-.three,
-.four {
-display: flex;
-}
-
-.sp-btn {
-  display: none;
-}
-
 .partner-div {
   background-color: #414246;
   padding-bottom: 20px;
@@ -481,23 +481,23 @@ display: flex;
 .fourth-sec {
   display: block;
 }
-footer {
-  display: block;
-  background-color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #d3d3d3;
-}
-
-.footer-div {
-  display: flex;
-  justify-content: center;
-}
 
 .rights-p {
   padding-left: 20px;
   font-family: 'Lato', sans-serif;
   color: #272a31;
+}
+
+footer {
+  margin-top: 0;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
 }
 
 .admin-list {
