@@ -296,11 +296,11 @@ body {
 }
 
 footer {
-  margin-top: 50px;
   display: block;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #272a31;
+  margin-top: 50px;
 }
 
 .tafara-img {
@@ -508,7 +508,6 @@ footer {
   }
 
   footer {
-    margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
