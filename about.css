@@ -68,7 +68,7 @@ body {
 }
 
 .first-sec {
-  background-image: url(/Images/main_big.png);
+  background-image: url(./Images/main_big.png);
   padding-bottom: 50px;
 }
 
