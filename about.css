@@ -206,7 +206,7 @@ body {
 }
 
 .past-div {
-  background-image: url(/Images/summit.png);
+  background-image: url(./Images/summit.png);
   background-repeat: no-repeat;
   padding-bottom: 50px;
   text-align: center;
@@ -215,7 +215,7 @@ body {
 }
 
 .past-div-two {
-  background-image: url(/Images/summit2.png);
+  background-image: url(./Images/summit2.png);
   background-repeat: no-repeat;
   padding-bottom: 50px;
   text-align: center;
