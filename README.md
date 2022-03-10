@@ -12,6 +12,7 @@ This is a website that contains information and registration details to a mental
 
 [Live Demo Link](https://tafaramafemba.github.io/mental-health-outreach/)
 
+[Loom Video Link](https://www.loom.com/share/6bd5dbaaedf74a1a8c680d64de21f71b)
 
 ## Getting Started
 
