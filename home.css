@@ -504,12 +504,11 @@ footer {
   .rights-p {
     padding-left: 20px;
     font-family: Lato, sans-serif;
-    color: #272a31;
+    color: #fff;
   }
 
   footer {
-    margin-top: 0;
-    background-color: #fff;
+    margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
