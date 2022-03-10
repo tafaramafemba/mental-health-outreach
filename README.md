@@ -1,6 +1,5 @@
-# Project Name
-Mental Health Awareness Outreach Event
-> Description the project.
+# Mental Health Awareness Outreach Event
+
 This is a website that contains information and registration details to a mental health awareness event that is being hosted.
 
 ## Built With
@@ -9,14 +8,36 @@ This is a website that contains information and registration details to a mental
 - CSS
 - Javascript
 
-## Link to website
+## Live Demo
+
+[Live Demo Link](https://tafaramafemba.github.io/mental-health-outreach/)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+A Github account to clone the repository.
+### Setup
+1. The user can get access to this repo by clicking on the repository's link (https://github.com/tafaramafemba/mental-health-outreach/). 
+2. Next, the user will need to clone this repository into their personal Github account. Once this is complete, they will have the file.
+### Deployment
+To deploy the site, the user will need to use Github Pages for this. The main branch can be used for this.
 
 
 ## Authors
 
-👤 **Author**
+👤 **Tafara Mafemba**
 
-- Tafara Mafemba
+- GitHub: (https://github.com/tafaramafemba)
+- Twitter: (https://twitter.com/the_real_you___)
+- LinkedIn: (https://www.linkedin.com/in/tafara-mafemba-4b82a0156/)
 
- ##Credits
+
+
+## Acknowledgments
+
  Original design idea by Cindy Shin in Behance.
+ - Website: (https://www.behance.net/adagio07)
+ - LinkedIn: (https://www.linkedin.com/in/adagio07/)
